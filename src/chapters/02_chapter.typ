@@ -1,4 +1,4 @@
-#import "../dependencies.typ": *
+#import "../components/tables.typ": table_style_1, table_style_2, table_style_3, table_style_3_bottom_cell
 
 = Figures
 
@@ -112,6 +112,3 @@ This is one more example of another styled table, using the table_style_3 compon
 ) <table-3>
 
 The table can be referenced as @table-3 like this. #lorem(50)
-
-
-#pagebreak()

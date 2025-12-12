@@ -1,9 +1,11 @@
 # 🎓 NAK Typst Template
-This is a template for Nordakademie transfer papers written in the markup-like typesetting system [Typst](https://github.com/typst/typst). Typst is an alternative to LaTeX with a range of advantages such as faster compile times, a comprehensive scripting system similar to languages like JavaScript and user-friendly error messages.
+This is a template for Nordakademie transfer papers written in the markup-like typesetting system [Typst](https://github.com/typst/typst).
 
-There are separate files for English as well as German transfer papers. The format closely resembles the other official Nordakademie templates and has been used by myself for writing my transfer papers.
+The template supports both **English** and **German**.
 
-You can find **example** files of how this template looks like in the [Releases](https://github.com/heuerleon/nak-typst-template/releases) of this repo.
+The format closely resembles the other official Nordakademie templates.
+
+You can find **examples** files of how this template looks like in the [Releases](https://github.com/heuerleon/nak-typst-template/releases) of this repo.
 
 ## Setup
 
@@ -11,11 +13,11 @@ There are several ways to use this template for your transfer paper.
 
 ### Option A (manually clone the repo)
 
-1. Install the Typst compiler on your local machine as described in the [Typst GitHub repo](https://github.com/typst/typst?tab=readme-ov-file#installation). I recommend using VSCode for working with Typst and installing the [Tinymist extension](https://github.com/Myriad-Dreamin/tinymist).
+1. Install the Typst compiler on your local machine as described in the [Typst GitHub repo](https://github.com/typst/typst?tab=readme-ov-file#installation). It  is recommended to use VSCode and installing the [Tinymist extension](https://github.com/Myriad-Dreamin/tinymist).
 2. Clone this template repo: `git clone git@github.com:leonheuer/nak-typst-template.git`
 3. `cd nak-typst-template`
-4. Watch source file: `typst watch src/main.typ` -> Changes in the file will be automatically recompiled
-5. Open the `src/main.pdf` file to see the result PDF, which will be overwritten on change
+4. Press F1 > Preview Opened File while in the `main.typ` file to ensure the preview works correctly.
+5. Compile the file: `typst c main.typ`
 
 You can commit your changes by creating your own upstream repo (e.g. GitHub) and changing the remote of your local repo to point to your own upstream repo.
 
@@ -35,31 +37,21 @@ This option has the advantage that you don't need to setup your local IDE and de
 
 ## Writing your Transfer Paper
 
-The core of this template is the `main_en.typ` file (`main_de.typ` if you're writing in **German**). Here you can:
-- Fill the data for the cover template
-- Add new abbreviations
-- Add formatting and page setup
+The core of this template is the `main.typ` file. Here you can:
+- Fill your data like title and centuria
+- Include your chapters
 
-The main file is also where you will include your content files. These will be stored in the `chapters` directory. Make sure to always include the line
-```
-#import "../dependencies.typ": *
-```
-at the top of your chapters to be able to use all the components.
-
-Reusable code should be extracted into components inside the `components` directory. Define your components as functions that you call in the main file. This template comes with a few basic components:
-- **Acronym**: a modified version of the [Acrostiche](https://typst.app/universe/package/acrostiche/) extension. Mainly changes the output format to a more beautifully styled table.
+There are some customized components in the `components` directory:
 - **Code**: for importing code from a file and formatting it as a block with syntax highlighting
-- **Cover**: designed to resemble the original cover template for Nordakademie transfer papers
-- **Header**: designed to resemble the original header for Nordakademie transfer papers
-- **Outline**: functions for printing outlines such as List of Tables, Table of Contents etc. that apply some basic formatting
 - **Tables**: some styled table functions that I developed while writing my own transfer papers
+- **Text formatting**
 
 Add any images, code source files or other kinds of resources that you want to include in your transfer paper, in the `res` directory.
 
 The bibliography file also lies in the `res` directory and uses the [BibTeX](https://www.bibtex.com/g/bibtex-format/) format. You might know it when coming from LaTeX, and you can use your current setup (e.g. export via Zotero) or copy your existing bibliography when switching from LaTeX.
 
-**Everything else can be done by using Typst built-in features. Additional formatting or tutorials can be found in the [Typst Docs](https://typst.app/docs/).**
+Abbreviations can be added in the `abbreviations.typ` file.
 
 ## Contributing
 
-If you have suggestions or issues, please open an **Issue** on GitHub. If you want to contribute, please fork this repo and create a **Pull Request**.
+If you have suggestions or issues, you are invited to open an **Issue** on GitHub. I appreciate contributions via **Pull Request**.
