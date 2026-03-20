@@ -33,7 +33,7 @@
 	} else {
 		return "Language must be English (\"en\") or German (\"de\")"
 	}
-	set text(font: "PT Sans")
+	set text(font: "Arial")
 
 	text(weight: "bold", fill: dark_blue, size: 15pt)[#texts.header #nr]
 	linebreak_n(2)

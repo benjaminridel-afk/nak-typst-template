@@ -6,7 +6,7 @@
 #import "../abbreviations.typ": abbreviation_list
 
 #let transfer_paper(
-  language: "en",
+  language: "de",
   font_size: 12pt,
   margin_y: 3cm,
   margin_x: 2cm,
@@ -14,7 +14,7 @@
   list_spacing: 1em,
   list_indent: 1.5em,
   bibliography_path: "../res/literature.bib",
-  citation_style: "ieee",
+  citation_style: "apa",
   headings: (
     margin_top: 30pt,
     margin_bottom: 25pt,
