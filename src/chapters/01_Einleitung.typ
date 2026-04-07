@@ -1,25 +1,18 @@
-=  Einleitung
+= Anstoß
+== Einleitung
 
-== Anlass und Problemstellung
+Die fortschreitende Digitalisierung sowie der zunehmende Einsatz von Künstlicher Intelligenz (KI) führen zu grundlegenden Veränderungen in der Arbeitsweise von Unternehmen. Insbesondere in der agilen Softwareentwicklung spielt die effiziente und qualitativ hochwertige Formulierung von Anforderungen eine zentrale Rolle, da sie maßgeblich den Erfolg von Entwicklungsprojekten beeinflusst. User Stories stellen hierbei ein etabliertes Mittel dar, um Anforderungen verständlich, nutzerzentriert und umsetzbar zu beschreiben (Cohn, 2004) .
 
-Die zunehmende Nutzung agiler Methoden in der Softwareentwicklung führt zu einer verstärkten Abhängigkeit von klar formulierten und verständlichen Anforderungen. Insbesondere im Scrum-Framework werden Anforderungen in Form von User Stories beschrieben und in kurzen, iterativen Entwicklungszyklen umgesetzt (Schwaber & Sutherland, 2020). Die Qualität dieser Anforderungen ist dabei entscheidend, da sie die Grundlage für die anschließende Entwicklung sowie die Testphase bildet.
+In der praktischen Umsetzung zeigt sich jedoch häufig, dass die Qualität von User Stories im Rahmen des Refinement-Prozesses nicht konstant gewährleistet ist. Unklare oder unvollständige Anforderungen führen zu Rückfragen, Unterbrechungen im Entwicklungsprozess und zusätzlichen Abstimmungsaufwänden. Dies beeinträchtigt nicht nur die Effizienz innerhalb des Entwicklungsteams, sondern erschwert auch die Zusammenarbeit zwischen Product Owner, Development-Team und weiteren Stakeholdern.
 
-In der praktischen Anwendung zeigt sich jedoch, dass Anforderungen häufig nicht in der erforderlichen Qualität vorliegen. User Stories, Tasks und ergänzende Kommentare enthalten oftmals unvollständige, widersprüchliche oder unklare Informationen. Dies führt dazu, dass Entwicklungsprozesse durch Rückfragen und Abstimmungen unterbrochen werden. Zudem werden Fehler häufig erst in späteren Phasen erkannt, beispielsweise während der Testdurchführung, wodurch zusätzlicher Aufwand und Verzögerungen entstehen (Pohl & Rupp, 2021). Das zentrale Problem liegt somit in der unzureichenden Qualität und Konsistenz von Anforderungen sowie den daraus resultierenden ineffizienten Kommunikationsprozessen.
+Vor diesem Hintergrund gewinnt der gezielte Einsatz von KI-basierten Systemen zunehmend an Bedeutung. Moderne KI-Technologien, insbesondere generative Sprachmodelle, bieten die Möglichkeit, textbasierte Inhalte wie Anforderungen automatisiert zu analysieren, zu strukturieren und zu optimieren. Dadurch können Prozesse effizienter gestaltet und die Qualität von Arbeitsergebnissen verbessert werden. Voraussetzung hierfür ist jedoch ein strukturierter Einsatz der Technologie, insbesondere durch geeignete Steuerung der Systeme, beispielsweise im Rahmen des Prompt Engineerings (Koch et al., 2025) .
 
-Diese Problematik ist eng mit der Verarbeitung von Wissen innerhalb von Organisationen verknüpft. Wissen umfasst neben Informationen auch Kontext, Erfahrungen und Interpretationen und ist häufig über verschiedene Akteure verteilt (Davenport & Prusak, 1999). Insbesondere in agilen Teams führt dies zu Informationsverlusten und Missverständnissen, wodurch die Zusammenarbeit zwischen Product Ownern und Entwicklungsteams sowie innerhalb der Teams selbst erschwert wird.
+Ziel dieser Transferleistung ist es daher, zu untersuchen, inwiefern der Einsatz eines KI-Agenten zur Verbesserung der Qualität von User Stories im Refinement-Prozess beitragen kann und welche Auswirkungen sich daraus auf Effizienz und Zusammenarbeit innerhalb der Abteilung ergeben.
 
-== Zielsetzung der Arbeit
+== Aufbau der Arbeit
 
-Vor dem Hintergrund dieser Herausforderungen wird in dieser Arbeit untersucht, inwiefern der Einsatz eines KI-gestützten Agenten zur Verbesserung der Anforderungsqualität beitragen kann. Der Fokus liegt dabei auf dem Refinement-Prozess, in dem Anforderungen konkretisiert und für die Umsetzung vorbereitet werden.
+Das Vorgehen zur Bearbeitung der Problemstellung orientiert sich am erweiterten Problemlösungszyklus nach Ahrens, welcher eine strukturierte und praxisorientierte Herangehensweise an betriebliche Problemstellungen ermöglicht (Ahrens, 2012). Die Bearbeitung erfolgt in mehreren aufeinander aufbauenden Phasen: Anlass, Situationsanalyse, Zielformulierung, Methodik, Synthese und Analyse sowie eine abschließende Bewertung mit Ausblick .
 
-Der betrachtete KI-Agent wird innerhalb der Atlassian-Umgebung eingesetzt und analysiert Anforderungen in Form von User Stories, Tasks und Bugmeldungen. Auf Basis definierter Regeln und Templates prüft der Agent diese auf Vollständigkeit, Konsistenz und Verständlichkeit und gibt darauf aufbauend strukturierte Verbesserungsvorschläge. Ziel ist es, Rückfragen zu reduzieren, Arbeitsunterbrechungen zu vermeiden und eine effizientere Zusammenarbeit zwischen Product Ownern und Entwicklungsteams zu ermöglichen.
+Zu Beginn wird im Rahmen der Situationsanalyse die aktuelle Vorgehensweise im Refinement-Prozess untersucht und bestehende Herausforderungen identifiziert. Darauf aufbauend werden Anforderungen und Zielsetzungen definiert, die eine Verbesserung der Qualität von User Stories sowie der Zusammenarbeit innerhalb der Abteilung ermöglichen sollen. Anschließend wird die methodische Vorgehensweise erläutert.
 
-Ziel dieser Arbeit ist es, den Beitrag eines solchen KI-Agenten zur Steigerung der Effizienz sowie zur Verbesserung der Zusammenarbeit und Qualität im agilen Requirements Engineering zu analysieren.
-
-Die zentrale Forschungsfrage lautet:
-
-Inwiefern kann ein KI-gestützter Agent zur Qualitätssicherung von User Stories im agilen Requirements Engineering beitragen und dadurch die Zusammenarbeit sowie Effizienz zwischen Product Ownern und Entwicklungsteams verbessern?
-
-== Vorgehen der Arbeit
-
-Zur Beantwortung dieser Fragestellung werden zunächst die theoretischen Grundlagen des Requirements Engineering sowie agiler Methoden dargestellt. Anschließend wird die Rolle von Künstlicher Intelligenz im organisationalen Kontext erläutert. Darauf aufbauend erfolgt eine Analyse des Einsatzes eines KI-Agenten im Refinement-Prozess innerhalb der Atlassian-Umgebung. Abschließend werden die Ergebnisse kritisch diskutiert und bewertet.
+Im weiteren Verlauf erfolgt die konzeptionelle Betrachtung des Einsatzes eines KI-Agenten zur Unterstützung des Refinement-Prozesses. Dabei wird analysiert, inwiefern durch den Einsatz der Technologie eine Qualitätssteigerung der User Stories sowie eine Effizienzsteigerung im Arbeitsprozess erreicht werden kann. Abschließend werden die Ergebnisse zusammengefasst und im Rahmen eines Ausblicks mögliche Weiterentwicklungen aufgezeigt.
