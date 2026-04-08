@@ -14,3 +14,5 @@
 #include "chapters/01_Einleitung.typ"
 #include "chapters/02_Situationsanalyse.typ"
 #include "chapters/03_Zielsetzung.typ"
+#include "chapters/04_Methodik.typ"
+#include"chapters/05_Synthese und Analyse.typ"
