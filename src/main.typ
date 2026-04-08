@@ -12,3 +12,5 @@
 
 // --- Include content here ---
 #include "chapters/01_Einleitung.typ"
+#include "chapters/02_Situationsanalyse.typ"
+#include "chapters/03_Zielsetzung.typ"
