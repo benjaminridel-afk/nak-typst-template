@@ -1,7 +1,7 @@
-= Anlass
-== Einleitung
+= Einleitung
+== Anlass
 
-In agilen Softwareentwicklungsprozessen stellt die Qualität von Anforderungen einen zentralen Erfolgsfaktor dar. Insbesondere im Scrum-Kontext übernehmen User Stories die Funktion, Anforderungen strukturiert, verständlich und umsetzungsnah zu formulieren. Sie dienen dabei nicht nur der Beschreibung fachlicher Bedürfnisse, sondern auch als Grundlage für Planung, Schätzung und Umsetzung innerhalb von Sprints @cohn2010agile
+In agilen Softwareentwicklungsprozessen stellt die Qualität von Anforderungen einen zentralen Erfolgsfaktor dar. Insbesondere im Scrum-Kontext übernehmen User Stories die Funktion, Anforderungen strukturiert, verständlich und umsetzungsnah zu formulieren. Sie dienen dabei nicht nur der Beschreibung fachlicher Bedürfnisse, sondern auch als Grundlage für Planung, Schätzung und Umsetzung innerhalb von Sprints @cohn2010agile.
 
 In der betrieblichen Praxis zeigt sich jedoch häufig, dass User Stories nicht die erforderliche Qualität aufweisen. Unklare Formulierungen, fehlende Akzeptanzkriterien oder eine unzureichende fachliche Abgrenzung führen dazu, dass zusätzlicher Abstimmungsbedarf entsteht. Dies widerspricht dem eigentlichen Ziel agiler Methoden, durch iterative und effiziente Zusammenarbeit schnelle und qualitativ hochwertige Ergebnisse zu erzielen. Stattdessen verlagert sich der Klärungsaufwand in nachgelagerte Prozesse wie Refinement-Meetings oder die Umsetzungsphase.
 
