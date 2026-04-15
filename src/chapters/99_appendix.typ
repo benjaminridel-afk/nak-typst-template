@@ -1,10 +1,6 @@
 #import "../components/code.typ": codeblock
+== Confluence-Template
+#figure(image("../res/confluence-template.png"), caption: "Confluence-Template für User Stories")
 
-== Code snippet
-  #figure(
-    codeblock("../res/rust_example.rs", "rust"),
-    caption: [Dummy Rust code to show the code blocks]
-  ) <code-snippet>
-
-  == Text
-  #lorem(50)
+== Screenshot des Analysekommentars
+#figure(image("../res/Kommentar Agent.png"), caption: "Beispielhafter Kommentar des Rovo-Agenten mit Rückfragen und Verbesserungsvorschlägen")
