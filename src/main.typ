@@ -3,9 +3,9 @@
 
 #show: transfer_paper.with(
 	language: "de",
-  "2",
+  "3",
 	"13920",
-	"	Einsatz des Atlassian Rovo KI-Assistenten zur Effizienzsteigerung des Refinementprozesses von Anforderungen in Jira innerhalb der Abteilung Digital Solutions",
+	"Einsatz des Atlassian Rovo KI-Assistenten zur Effizienzsteigerung des Refinementprozesses von Anforderungen in Jira innerhalb der Abteilung Digital Solutions",
 	"Wirtschaftsinformatik, I24b",
 	appendix_content: include "chapters/99_appendix.typ",
 )
